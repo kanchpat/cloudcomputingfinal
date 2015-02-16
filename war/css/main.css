@@ -1,0 +1,97 @@
+
+hr {
+  border: 0;
+  background-color: #DDDDDD;
+  height: 1px;
+  margin: 5px;
+}
+
+
+table th {
+  background:#EFEFEF none repeat scroll 0 0;
+  border-top:1px solid #CCCCCC;
+  font-size:large;
+  padding-left:5px;
+  padding-right:4px;
+  padding-top:4px;
+  vertical-align:center;
+  text-align:center;
+}
+
+table tr {  
+  background-color: #e5ecf9;
+  font-size:medium;
+}
+
+button{
+    background:none;
+    border:none;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:left;
+}
+button div.o{
+    padding-left:20px;
+    background:transparent url(button.gif) no-repeat left top;
+}
+button div.i{
+    padding-right:20px;
+    background:transparent url(button.gif) no-repeat right -36px;
+    height:36px;
+    line-height:36px;
+    white-space:nowrap;
+}
+
+.topLine {
+  height: 1.25em;
+  background-color: #e5ecf9;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+  padding-top: 2px;
+}
+
+.headline {
+  font-weight: bold;
+  color: #3366cc;
+  vertical-align: center;
+}
+
+.center{
+	margin:auto;
+	width: 70%;
+	padding-top: 5%;
+}
+.imglogo{
+	margin:auto;
+	width: 70%;
+	 
+}
+
+.done {
+  font-size: x-small;
+  vertical-align: top;
+}
+
+
+.email {
+  font-size: x-small;
+  vertical-align: top;
+}
+
+img.side-to-side {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+}
+
+
+form td {
+  font-size: large;
+} 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<sessions-enabled>true</sessions-enabled> 
+	<servlet>
+		<servlet-name>ServletCreateStudent</servlet-name>
+		<servlet-class>cscie90.project.student.ServletCreateStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ServletListStudent</servlet-name>
+		<servlet-class>cscie90.project.student.ServletListStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletListStudent</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletCreateStudent</servlet-name>
+		<url-pattern>/new</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>ServletUpdateStudent</servlet-name>
+		<servlet-class>cscie90.project.student.ServletUpdateStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletUpdateStudent</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ServletSendEmailStudent</servlet-name>
+		<servlet-class>cscie90.project.student.ServletSendEmailStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletSendEmailStudent</servlet-name>
+		<url-pattern>/sendemail</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
